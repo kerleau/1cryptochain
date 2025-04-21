@@ -1,0 +1,86 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm/
+
+# dotenv environment variables
+.env
+.env.*.local
+
+# Local environment files
+.local/
+*.local
+
+# VSCode
+.vscode/
+.history/
+
+# IntelliJ IDEs
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage and test
+coverage/
+.nyc_output/
+test-results/
+
+# Build output
+dist/
+build/
+out/
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# PM2 process manager
+pids/
+pm2-*.log
+
+# Binaries
+*.exe
+*.out
+*.app
+
+# CI/CD
+.circleci/
+.github/
+.gitlab-ci.yml
+
+# Terraform (if applicable)
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Kubernetes
+*.kube/
+.kube/
+
+# Misc
+*.swp
+*.swo
+*.bak
+*.tmp
+*.tgz
