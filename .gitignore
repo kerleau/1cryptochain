@@ -84,3 +84,6 @@ pm2-*.log
 *.bak
 *.tmp
 *.tgz
+
+*node_modules*
+.cache/
